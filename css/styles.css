@@ -2,5 +2,38 @@
   width: 1060px;
   background-color: #ffffff;
   margin: 0 auto;
-  border: 1px solid #000;
+  padding: 1px;
+  font-family: 'Open Sans', sans-serif;
+}
+/*HEADER*/
+.logo {
+  display: block;
+  margin: 50px 0 40px 45px;
+}
+nav {
+  box-sizing: border-box;
+  width: 966px;
+  margin: 0 0 0 45px;
+  background: #4f4e4e;
+}
+nav ul {
+  height: 40px;
+}
+nav li {
+  display: inline-block;
+  font-size: 15px;
+}
+nav li a {
+  width: 135px;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px 24px 14px;
+  color: #ffffff;
+  text-decoration: none;
+}
+nav li a:hover {
+  background-color: #3f3f3f;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  padding: 10px 23px 14px;
 }
