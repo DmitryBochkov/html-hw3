@@ -20,7 +20,7 @@ nav ul {
   height: 40px;
 }
 nav li {
-  display: inline-block;
+  display:inline-block;
   font-size: 15px;
 }
 nav li a {
@@ -33,7 +33,61 @@ nav li a {
 }
 nav li a:hover {
   background-color: #3f3f3f;
-  border-left: 1px solid #ffffff;
-  border-right: 1px solid #ffffff;
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
   padding: 10px 23px 14px;
+}
+
+/*MAIN*/
+main {
+  box-sizing: border-box;
+  width: 966px;
+  margin: 40px 0 0 45px;
+}
+.left-menu {
+  float: left;
+  width: 240px;
+  box-sizing: border-box;
+  border: 1px solid #c8c8c8;
+}
+.left-menu li {
+  display: block;
+  color: #656363;
+  font-size: 13px;
+  text-decoration: none;
+  border-top: 1px solid #c8c8c8;
+}
+.left-menu li:first-child {
+    border-top: none;
+}
+.left-menu li a {
+  display: block;
+  color: #656363;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 12px 0 12px 23px;
+  line-height: 1.1;
+}
+.left-menu li a:hover {
+  background-color: #f9f9f9;
+  padding-left: 35px;
+}
+.content {
+  float: right;
+  width: 678px;
+  box-sizing: border-box;
+}
+.content img {
+  display: block;
+}
+.content p {
+  color: #2c2c2c;
+  font-size: 13px;
+  margin: 34px 0 0 0;
+  line-height: 1.6;
+  padding: 0 25px 0 25px;
+}
+
+footer {
+  clear: both;
 }
