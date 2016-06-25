@@ -1,9 +1,14 @@
+body {
+  background-color: #f9f9f9;
+}
 .wrapper {
   width: 1060px;
   background-color: #ffffff;
   margin: 0 auto;
   padding: 1px;
   font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);
 }
 /*HEADER*/
 .logo {
@@ -53,7 +58,6 @@ main {
 .left-menu li {
   display: block;
   color: #656363;
-  font-size: 13px;
   text-decoration: none;
   border-top: 1px solid #c8c8c8;
 }
@@ -63,7 +67,6 @@ main {
 .left-menu li a {
   display: block;
   color: #656363;
-  font-size: 13px;
   text-decoration: none;
   padding: 12px 0 12px 23px;
   line-height: 1.1;
@@ -82,7 +85,6 @@ main {
 }
 .content p {
   color: #2c2c2c;
-  font-size: 13px;
   margin: 34px 0 0 0;
   line-height: 1.6;
   padding: 0 25px 0 25px;
@@ -92,6 +94,7 @@ main {
   display: table;
   clear: both;
 }
+
 /*FOOTER*/
 footer {
   box-sizing: border-box;
@@ -107,7 +110,6 @@ footer ul li {
   display: inline-block;
   margin-right: 90px;
   color: #2c2c2c;
-  font-size: 13px;
   padding: 13px 0;
 }
 footer ul li:last-child {
